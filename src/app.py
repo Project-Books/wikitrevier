@@ -1,8 +1,8 @@
 from wikipedia import wikipedia, PageError, exceptions
 from flask import Flask, request, abort
 
-from schema.author import Author
-from schema.book import Book
+from model.author import Author
+from model.book import Book
 
 app = Flask(__name__)
 
